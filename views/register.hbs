@@ -17,7 +17,7 @@
     <form class="login-form" method="post" action="/register">
       <input type="text" name = "rname" placeholder="name"/>
       <input type="password" name = "rpassword" placeholder="password"/>
-      <input type="repassword" name = "repass" placeholder="re-password"/>
+      <input type="password" name = "repass" placeholder="re-password"/>
       <button type="submit">create</button>
       {{#if errorMessage}}
         <p class="emessage">{{errorMessage}}</p>
