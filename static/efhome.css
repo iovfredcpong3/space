@@ -280,5 +280,8 @@ td{
   }
   }
 
-
+.myname,.myscore{
+  background: transparent;
+  border: 2px solid black;
+}
 
