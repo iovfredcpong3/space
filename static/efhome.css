@@ -217,7 +217,12 @@ td{
   cursor: url('https://marclopezavila.github.io/planet-defense-game/img/aim_red.png') 17.5 17.5,auto !important;
 }
 
-
+.login-form{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+}
 
 
 /*               FOOTER*/
@@ -276,14 +281,4 @@ td{
   }
 
 
-.login-form{
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: #fff;
-}
-
-
-
-  
 
