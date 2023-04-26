@@ -50,11 +50,11 @@
       {{#each user}}
       <section class="content">
     <form class="login-form" method="post" action="/update">
-        <p>YOUR USERNAME</p>
+        <p style="font-family:'Courier New'">YOUR USERNAME</p>
       <input type="text" id="myname" name = "rname" value="{{this.name}}" readonly/><br><br>
-      <p>YOUR HIGHSCORE</p>
+      <p style="font-family:'Courier New'">YOUR HIGHSCORE</p>
       <input type="text" id="myscore"name = "score" value="0" readonly/><br><br>
-      <button type="submit">UPDATE</button>
+      <button class="button-31" role="button" type="submit">UPDATE</button>
     </form>
     {{/each}}
         <body>
