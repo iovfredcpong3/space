@@ -10,7 +10,7 @@ const cookieParser = require('cookie-parser')
 const path = require('path');
 const createError = require('http-errors');
 require('dotenv').config();
-const port = process.env.APP_PORT;
+const port = process.env.APP_PORT ?? process.env.PORT;
 
 
 app.use(cookieParser());
