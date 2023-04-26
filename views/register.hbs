@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "/static/style.css">
+    <script src="/static/Jlogin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel ="icon" href="/static/logo.png">
+    <title>REGISTER</title>
+</head>
+<body>
+
+<div class="login-page">
+  <div class="form">
+    <form class="login-form" method="post" action="/register">
+      <input type="text" name = "rname" placeholder="name"/>
+      <input type="password" name = "rpassword" placeholder="password"/>
+      <input type="repassword" name = "repass" placeholder="re-password"/>
+      <button type="submit">create</button>
+      {{#if errorMessage}}
+        <p class="emessage">{{errorMessage}}</p>
+       {{/if}}
+      <p class="message">Already registered? <a href="/login">Sign In</a></p>
+    </form>
+  </div>
+</div>
+    
+</body>
+</html>
