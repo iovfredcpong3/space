@@ -46,10 +46,11 @@ router.post('/update',async (request,response)=>{
     }
 })
 
-router.get('/logout',(req,res)=>{
-    req.session = null;
-    res.redirect =('/login')
-})
+router.get('/logout', isLoggedIn, (req, res) => {
+    req.logout();
+    req.session.destroy();
+    res.redirect('/');
+   });
 
 
 
