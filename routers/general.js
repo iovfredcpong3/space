@@ -48,7 +48,7 @@ router.post('/update',async (request,response)=>{
 
 router.get('/logout',(req,res)=>{
     req.session = null;
-    res.redirect =('/')
+    res.redirect =('/login')
 })
 
 
