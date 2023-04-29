@@ -79,4 +79,9 @@ router.post('/auth/login',async (request,response)=>{
     }
 })
 
+router.get('/logout',(req,res)=>{
+    req.session = null;
+    res.redirect =('/')
+})
+
 module.exports = router;
