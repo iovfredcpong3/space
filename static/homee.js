@@ -365,7 +365,7 @@ function game() {
                 _asteroids();
 
                 ctx.font = "20px Verdana";
-                ctx.fillStyle = "white";
+                ctx.fillStyle = "black";
                 ctx.textBaseline = 'middle';
                 ctx.textAlign = "left";
                 ctx.fillText('Record: '+record+'', 20, 30);
