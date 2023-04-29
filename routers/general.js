@@ -38,7 +38,7 @@ router.post('/update',async (request,response)=>{
         const scoreuser = await db.select('*').from('info')
         await db.update({point : score}).where({name:rname}).into('info')
         console.log("UPDATE เรียบร้อย")
-        response.render('home',{user:request.session.user,scoreuser})
+        
 
     } catch (error) {
         let errorMessage = error
