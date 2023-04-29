@@ -325,3 +325,9 @@ input{
 .button-31:focus {
   opacity: .75;
 }
+.logout-form{
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  color: #fff;
+}
