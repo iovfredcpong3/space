@@ -94,7 +94,7 @@
   color: #EF3B3A;
 }
 body {
-	background: linear-gradient(to right top, #000000, #0c0c0c, #151515, #1c1c1c, #232323);
+	background: linear-gradient(to left top, #000000, #2a0d13, #4d0b18, #700515, #900707);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
